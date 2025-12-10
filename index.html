@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List App</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="To-do.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="todo-app">
+            <h1>To-Do List</h1>
+
+            <div class="input-area">
+                <input type="text" id="input-box" placeholder="Add a new task...">
+                <button id="add-btn"><i class="fa fa-plus"></i></button>
+            </div>
+
+            <div class="todos-container">
+                <ul id="task-list"></ul>
+                <img class="empty-image" src="images/empty.svg" alt="No tasks">
+            </div>
+        </div>
+    </div>
+
+    <!-- JS File -->
+    <script src="To-do.js"></script>
+</body>
+</html>
